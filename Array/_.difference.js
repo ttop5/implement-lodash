@@ -15,6 +15,6 @@ function difference(array, values) {
     if (!values.includes(item)) {
       result.push(item);
     }
-  })
+  });
   return result;
 }

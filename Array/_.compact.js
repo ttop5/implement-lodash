@@ -14,6 +14,6 @@ function compact(array) {
     if (item) {
       result.push(item);
     }
-  })
+  });
   return result;
 }
