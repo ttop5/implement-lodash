@@ -6,7 +6,7 @@
 * @param  {*}      value              填充给array的值
 * @param  {Number} [start=0]          开始位置（默认0）
 * @param  {Number} [end=array.length] 结束位置（默认array.length）
-* @return {Array}
+* @return {Array}                     返回填充改变后的数组
 * @example
 *
 * var array = [1, 2, 3];
