@@ -53,10 +53,10 @@ function range(start, end, step) {
     start = 0;
     step = 1;
   }
-  if ((end === undefined) && start < 0) {
+  if ((end !== undefined) && (step === undefined) && start < 0) {
     step = -1;
   }
-  if ((end === undefined) && start >= 0) {
+  if ((end !== undefined) && (step === undefined) && start >= 0) {
     step = 1;
   }
   return iterator(start, end, step);
