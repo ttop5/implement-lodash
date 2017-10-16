@@ -17,6 +17,13 @@
 * isArray(_.noop);
 * // => false
 */
+
+// 方法1：
 function isArray(value) {
   return Array.isArray(value);
+}
+
+// 方法2：
+function isArray(value) {
+  return (typeof(value) === 'object' && value.constructor === Array);
 }
