@@ -1,9 +1,9 @@
 /**
  * 执行一个深度比较，来确定 object 是否含有和 source 完全相等的属性值。
  *
- * @param   {Object}  要检查的对象
- * @param   {Object}  属性值匹配的对象
- * @returns {boolean} 如果object匹配，那么返回 true，否则返回 false
+ * @param   {Object}  object 要检查的对象
+ * @param   {Object}  source 属性值匹配的对象
+ * @returns {boolean}        如果object匹配，那么返回 true，否则返回 false
  * @example
  *
  * var object = { 'a': 1, 'b': 2 };

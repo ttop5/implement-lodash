@@ -1,7 +1,8 @@
 /**
+ * 检查 value 是否是 NaN。
  *
- * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is `NaN`, else `false`.
+ * @param   {*}  value 要检查的值
+ * @returns {boolean}  如果 value 是一个 NaN，那么返回 true，否则返回 false
  * @example
  *
  * isNaN(NaN);
