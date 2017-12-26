@@ -16,6 +16,6 @@
  * // => ''
  */
 
-function repeat(string='', n=1) {
- return string.repeat(n);
-}
+ function repeat(string='', n=1) {
+   return string.repeat(n);
+ }

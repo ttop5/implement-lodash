@@ -12,6 +12,6 @@
  * // => false
  */
 
-function isNull(value) {
-  return value === null;
-}
+ function isNull(value) {
+   return value === null;
+ }

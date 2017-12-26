@@ -11,6 +11,6 @@
  * // => 'Hi Barney'
  */
 
-function replace(string, pattern, replacement) {
-  return string.replace(pattern, replacement);
-}
+ function replace(string, pattern, replacement) {
+   return string.replace(pattern, replacement);
+ }

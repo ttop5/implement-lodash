@@ -7,6 +7,7 @@
  * stubString();
  * // => ''
  */
-function stubString() {
-  return '';
-}
+
+ function stubString() {
+   return '';
+ }

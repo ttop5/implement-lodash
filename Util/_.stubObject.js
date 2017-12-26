@@ -7,6 +7,7 @@
  * stubObject();
  * // => {}
  */
-function stubObject() {
-  return {};
-}
+
+ function stubObject() {
+   return {};
+ }

@@ -15,6 +15,6 @@
  * // => false
  */
 
-function isNil(value) {
-  return value === null || value === undefined;
-}
+ function isNil(value) {
+   return value === null || value === undefined;
+ }

@@ -8,12 +8,13 @@
  * compact([0, 1, false, 2, '', 3]);
  * // => [1, 2, 3]
  */
-function compact(array) {
-  let result = [];
-  array.map((item) => {
-    if (item) {
-      result.push(item);
-    }
-  });
-  return result;
-}
+
+ function compact(array) {
+   let result = [];
+   array.map((item) => {
+     if (item) {
+       result.push(item);
+     }
+   });
+   return result;
+ }

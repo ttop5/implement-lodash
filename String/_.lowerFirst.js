@@ -12,6 +12,6 @@
  * // => 'fRED'
  */
 
-function lowerFirst(string) {
-  return string.replace(string[0], string[0].toLowerCase());
-}
+ function lowerFirst(string) {
+   return string.replace(string[0], string[0].toLowerCase());
+ }

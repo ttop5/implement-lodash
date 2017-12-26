@@ -7,6 +7,7 @@
  * stubTrue();
  * // => true
  */
-function stubTrue() {
-  return true;
-}
+
+ function stubTrue() {
+   return true;
+ }

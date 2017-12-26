@@ -9,6 +9,7 @@
  * divide(6, 4);
  * // => 1.5
  */
+ 
 function divide(dividend, divisor) {
   return dividend/divisor;
 }

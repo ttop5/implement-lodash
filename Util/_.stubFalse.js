@@ -7,6 +7,7 @@
  * stubFalse();
  * // => false
  */
-function stubFalse() {
-  return false;
-}
+
+ function stubFalse() {
+   return false;
+ }

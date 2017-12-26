@@ -15,12 +15,12 @@
  * // => false
  */
 
-// 方法1:
+ // 方法1:
  function isNaN(value) {
    return Number.isNaN(value);
  }
 
  // 方法2:
-function isNaN(value) {
-  return value !== value;
-}
+ function isNaN(value) {
+   return value !== value;
+ }

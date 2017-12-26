@@ -7,6 +7,7 @@
  * stubArray();
  * // => []
  */
-function stubArray() {
-  return [];
-}
+
+ function stubArray() {
+   return [];
+ }
